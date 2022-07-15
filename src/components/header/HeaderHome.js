@@ -1,51 +1,14 @@
-import styled from "styled-components";
-const divStyle = {
-  backgroundColor: "#01526d",
-  display: "inline-block",
-  width: "100%",
-};
-
-const h1Style = {
-  margin: "5px",
-  fontSize: "30px",
-  color: "#ffffff",
-  textAlign: "center",
-  fontWeight: "500",
-};
-
-const cupom = {
-  textTransform: "uppercase",
-  color: "#fce700",
-  marginLeft: "20px",
-  marginRight: "60px",
-  fontWeight: "700",
-  fontSize: "2.5rem",
-};
-
-const percentage = {
-  color: "#fce700",
-  marginLeft: "10px",
-  marginRight: "20px",
-  fontSize: "2.5rem",
-};
-const climate = {
-  textTransform: "uppercase",
-  color: "#fce700",
-  marginLeft: "20px",
-  marginRight: "60px",
-  fontWeight: "700",
-  fontSize: "2.5rem",
-};
+import './HeaderHome.css';
 
 function HeaderHome() {
   return (
     <div className="HeaderHome">
       <header className="HeaderHome-header">
-        <div className="cupon" style={divStyle}>
-          <h1 style={h1Style}>
-            Clima de <span style={cupom}>Cupom</span> Desconto de até
-            <span style={percentage}>45%</span>
-            Use no carrinho: <span style={climate}>noclima</span>
+        <div className="divStyle">
+          <h1 className="h1Style">
+            Clima de <span className="cupon">Cupom</span> Desconto de até
+            <span className="percentage">45%</span>
+            Use no carrinho: <span className="climate">noclima</span>
           </h1>
         </div>
         <div className="content">
