@@ -1,20 +1,13 @@
 import "./App.css";
+import HeaderHome from "./components/HeaderHome";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p></p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Extra.com
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="App">
+        <HeaderHome />
+      </div>
+    </>
   );
 }
 
